@@ -1,3 +1,3 @@
 # CreateServerRepo
 
-This is a repo to create a sever
+This is a repo to create a server

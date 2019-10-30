@@ -5,6 +5,9 @@
   "repository": "https://github.com/ktan114/CreateServerRepo.git",
   "author": "ktan114 <ktaneight@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",

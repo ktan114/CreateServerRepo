@@ -1,18 +1,10 @@
-# Create a Node/Express Server
-
-## Postgres Integration
-
-Run 'yarn knex init' to create the knexfile
-Adjust the config file to point to your local/production DB
-
-```javascript
-    module.exports = {
+module.exports = {
   development: {
     client: 'pg',
     connection: {
       host: 'localhost',
       user: 'postgres',
-      password: 'passowrd',
+      password: 'password',
       database: 'boilerplate'
     },
     migrations: {
@@ -50,17 +42,3 @@ Adjust the config file to point to your local/production DB
     },
   },
 };
-
-```
-
-### Creating migrations and seeds
-
-These commands will create the migrations and seeds directories for you
-
-Migrations: Run npm knex migrate:make <table>
-Seeds: Run npm knex seed:make <seed name>
-
-Update Table:
-`npm knex migrate:rollback` that command removes all data and tables from the db
-`npm knex migrate:latest` that command updates the table
-`npm knex seed:run` fills the table with "seed" data

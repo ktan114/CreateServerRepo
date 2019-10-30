@@ -2,6 +2,8 @@
 
 ## Postgres Integration
 
+https://gist.github.com/NigelEarle/80150ff1c50031e59b872baf0e474977
+
 Run 'yarn knex init' to create the knexfile
 Adjust the config file to point to your local/production DB
 

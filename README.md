@@ -5,7 +5,7 @@ Want to add:
 - Codecov
 - CircleCI
 - APIdoc
-- Testing
+- Testing (Unit, Integration, End to End)
 - Next
 - Cron 
 
